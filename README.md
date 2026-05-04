@@ -235,7 +235,6 @@ If you like this work, check out other things I've built:
 - **[Satoshi's Playroom](https://github.com/tokiopy/satoshis-playroom-showcase)**: Bitcoin gaming platform with real-money multiplayer (Domino, Poker, Chess) on Lightning Network
 - **Federación** *(coming soon)*
 - **Satoshi Somos Todos** *(coming soon)*
-- **Kabra Coin** *(coming soon)*
 
 ---
 
