@@ -18,7 +18,7 @@ Education · Calculator · Business Map · AI Agent · Blog · Certification · 
 
 ## What is this?
 
-**BitcoinLab Bolivia** is the digital home of the Bitcoin Lab community in Santa Cruz de la Sierra, Bolivia. It's not a single product. It's an integrated set of tools serving the same audience: people in Bolivia learning, adopting, and using Bitcoin.
+**BitcoinLab Bolivia** is the digital home of the Bitcoin Lab community in Santa Cruz de la Sierra, Bolivia. It's not a single product. It's an integrated set of tools serving the same audience. People in Bolivia learning, adopting, and using Bitcoin.
 
 The platform combines Bitcoin courses with progress tracking, a real-time BTC/sats/USD/BOB calculator using local P2P market data, an interactive map of every business in Bolivia that accepts Bitcoin, an AI agent that answers Bitcoin questions in Spanish with live price data, a community blog, a certification program with diploma generation, and an admin panel for content moderation.
 
@@ -109,7 +109,7 @@ A multi-week Bitcoin certification program with online registration, lesson comp
 
 ### 🛡️ Admin Panel
 
-A purpose-built admin surface for the two areas that need active moderation: the business map and the blog.
+A purpose-built admin surface covering the two areas that need active moderation, the business map and the blog.
 
 - **Business moderation queue:** admins review pending submissions, see all photos, approve or reject with reason
 - **Blog management:** create, edit, and delete posts via a clean admin UI
@@ -160,13 +160,13 @@ The interesting part of this project isn't a single hard technical problem. It's
 
 ### 🎯 Pragmatic stack selection
 
-The platform runs on Hostinger shared hosting, the most affordable option for a community-funded project. That single constraint defined the entire architecture: no Node.js (so no Next.js, no SSR, no build pipeline), PHP available (so PHP for CORS proxies), static files served directly (so vanilla HTML/JS with CDN dependencies). The result: the entire site deploys with one FTP upload, runs at $5/month, and has zero build-step failures because there is no build step.
+The platform runs on Hostinger shared hosting, the most affordable option for a community-funded project. That single constraint defined the entire architecture. No Node.js meant no Next.js, no SSR, no build pipeline. PHP available meant PHP for CORS proxies. Static files served directly meant vanilla HTML/JS with CDN dependencies. The entire site deploys with one FTP upload, runs at $5/month, and has zero build-step failures because there is no build step.
 
 A modern framework would have made the codebase look fancier on a resume. It would have also tripled hosting costs, required CI/CD setup, and added a maintenance burden the community cannot absorb. The right tool for this job was the boring tool.
 
 ### 📱 Mobile-first by necessity, not by trend
 
-In Bolivia, most internet access happens on mobile devices. The platform was designed mobile-first from the start: every layout collapses gracefully from desktop through tablet to 320px, the calculator inputs are sized for thumbs, the map controls are touch-friendly, and the AI agent works as a native-feeling chat widget on small screens.
+In Bolivia, most internet access happens on mobile devices. The platform was designed mobile-first from the start. Every layout collapses gracefully from desktop through tablet to 320px, the calculator inputs are sized for thumbs, the map controls are touch-friendly, and the AI agent works as a native-feeling chat widget on small screens.
 
 <div align="center">
 
