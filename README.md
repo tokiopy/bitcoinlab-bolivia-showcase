@@ -242,8 +242,9 @@ If you like this work, check out other things I've built:
 
 - 🌐 **Live site:** [btclabbolivia.com](https://btclabbolivia.com/)
 - 💬 **GitHub:** [@tokiopy](https://github.com/tokiopy)
+- 🐦 **X:** [@tokiobtc](https://x.com/tokiobtc)
 - 📧 **Email:** info@tokiohub.com
-
+- 📱 **WhatsApp:** [+1-809-852-4542](https://wa.me/18098524542)
 ---
 
 ## License
